@@ -19,8 +19,10 @@ PlayingCards::Deck.new(2) # -> deck of 104 cards
 ```ruby
 new_deck = PlayingCards::Deck.new
 new_deck.shuffle
-new_deck.deal(5) # -> array of 5 cards
-new_deck.count # -> 47 (we already delt the 5 cards above)
-new_deck.deal(47) # -> that's a big hand!
-new_deck.empty? # -> true
+new_deck.deal(5)    # -> array of 5 cards
+new_deck.count      # -> 47 (we already delt the 5 cards above)
+new_deck.deal(47)   # -> that's a big hand!
+new_deck.empty?     # -> true
 ```
+
+## 👨🏻‍💻 Still in Dev Mode. Gonna work on building more methods and add some tests. 👨🏻‍💻
